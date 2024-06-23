@@ -11,12 +11,12 @@ After completing my degree, I hope to join the industry as a machine learning en
 
 ## Work Experience
 ###Zahnradfabrik Research and Development Center | India
-**Senior Computation Engineer | January 2023 - July 2023
+**Senior Computation Engineer | January 2023 - July 2023**
 - Deeplearning in developing failure prediction models and material classification.
 - Research in understanding the developments the machine learning in topology optimization.
 - Programming workflow automations and mathematical models for forecasting.
   
-**Computational Engineer | September 2020 - December 2022
+**Computational Engineer | September 2020 - December 2022**
 - Computational simulation and data visualization.
 - Exploratory data analysis for test and simulation correlation.
  
