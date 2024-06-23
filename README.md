@@ -6,8 +6,8 @@ During my time there, I had the opportunity to delve into programming, particula
 After completing my degree, I hope to join the industry as a machine learning engineer with a focus on deep learning. I am also interested in physics-informed neural networks, game theory, solid and fluid mechanics. Outside of science and technology, I follow chess, European football, and filmmaking.
 
 ### Education
-Master's in Data Science at Northeastern University, Boston (January 2024 - May 2026)
-Bachelor's in Mechanical Engineering at Koneru Lakshmiah University, India.
+- Master's in Data Science at Northeastern University, Boston (January 2024 - May 2026)
+- Bachelor's in Mechanical Engineering at Koneru Lakshmiah University, India.
 
 ### Work Experience
 ## Zahnradfabrik Research and Development Center
@@ -22,11 +22,15 @@ Computational Engineer | Spetember 2020 - December 2022
 ### Projects
 ##Traffic sign detection system using CNN (Undergraduate project)
 - Convolutional Neural Network (CNN) using Keras with PyTorch backend.
+
 ##Machine Learning Techniques in Autism Spectrum Disorder(ASD) Detection
 - Supervised classification models using R programming.
+  
 ##Course Mapper (Hackathon Finalist)
 - Course scheduling web application for students built using python, natural language processing and web scrapping techniques.
+  
 ##Development of physics informed neural networks to simulate stress in a 2D plate
 - Physics-Informed Neural Network (PINN) model in PyTorch.
+  
 ##Can you hear the music?
 - Interactive fluid simulation using Pygame.
