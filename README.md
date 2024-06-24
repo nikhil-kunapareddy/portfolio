@@ -10,7 +10,7 @@ After completing my degree, I hope to join the industry as a machine learning en
 - Bachelor's in Mechanical Engineering at Koneru Lakshmiah University, India.
 
 # Work Experience
-## Zahnradfabrik Research and Development Center | India
+### Zahnradfabrik Research and Development Center | India
 **Senior Computation Engineer | January 2023 - July 2023**
 - Deeplearning in developing failure prediction models and material classification.
 - Research in understanding the developments the machine learning in topology optimization.
@@ -21,17 +21,17 @@ After completing my degree, I hope to join the industry as a machine learning en
 - Exploratory data analysis for test and simulation correlation.
  
 # Projects
-## Traffic sign detection system using convolutional neural network
+### Traffic sign detection system using convolutional neural network
 Convolutional Neural Network (CNN) using Keras with PyTorch backend.
 
-## Machine Learning Techniques in Autism Spectrum Disorder(ASD) Detection
+### Machine Learning Techniques in Autism Spectrum Disorder(ASD) Detection
 Supervised classification models using R programming.
   
-## Course Mapper (Hackathon Finalist)
+### Course Mapper (Hackathon Finalist)
 Course scheduling web application for students built using python, natural language processing and web scrapping techniques.
   
-## Development of physics informed neural networks to simulate stress in a 2D plate
+### Development of physics informed neural networks to simulate stress in a 2D plate
 Physics-Informed Neural Network (PINN) model in PyTorch.
   
-## Can you hear the music?
+### Can you hear the music?
 Interactive fluid simulation using Pygame.
