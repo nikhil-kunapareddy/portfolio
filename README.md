@@ -6,8 +6,8 @@ During my time there, I had the opportunity to delve into programming, particula
 After completing my degree, I hope to join the industry as a machine learning engineer with a focus on deep learning. I am also interested in physics-informed neural networks, game theory, solid and fluid mechanics. Outside of science and technology, I follow chess, European football, and filmmaking.
 
 # Education
-- Master's in Data Science at Northeastern University, Boston, USA.
-- Bachelor's in Mechanical Engineering at Koneru Lakshmiah University, India.
+Master's in Data Science at Northeastern University, Boston, USA.
+Bachelor's in Mechanical Engineering at Koneru Lakshmiah University, India.
 
 # Work Experience
 ## Zahnradfabrik Research and Development Center | India
