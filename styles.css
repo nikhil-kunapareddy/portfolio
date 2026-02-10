@@ -1,0 +1,117 @@
+/* Minimal portfolio — inspired by amansanger.com */
+
+:root {
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --bg: #fafaf9;
+  --link: #1a1a1a;
+  --link-underline: #c9c5be;
+  --serif: "Instrument Serif", Georgia, serif;
+  --sans: "DM Sans", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 400;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+/* Hero */
+.hero {
+  margin-bottom: 3rem;
+}
+
+.name {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 400;
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  max-width: 36ch;
+}
+
+/* Section nav */
+.sections {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+}
+
+.sections a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-underline);
+  padding-bottom: 2px;
+}
+
+.sections a:hover {
+  border-bottom-color: var(--text);
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+}
+
+.section p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Footer links */
+.links {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--link-underline);
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.links a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-underline);
+  padding-bottom: 2px;
+}
+
+.links a:hover {
+  border-bottom-color: var(--text);
+}
