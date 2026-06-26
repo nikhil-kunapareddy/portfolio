@@ -161,8 +161,10 @@ a {
   gap: 1rem;
 }
 
-.work-dates {
+.work-dates,
+.edu-date {
   font-size: 12px;
+  color: #9ca3af;
   white-space: nowrap;
 }
 
@@ -178,9 +180,7 @@ a {
   gap: 1rem;
 }
 
-.edu-date,
-.edu-sub,
-.edu-coursework {
+.edu-sub {
   color: var(--text);
 }
 
@@ -194,15 +194,6 @@ a {
 
 .edu-sub {
   margin-top: 0.1rem;
-}
-
-.edu-coursework {
-  margin-top: 0.75rem;
-}
-
-.edu-label {
-  margin-right: 0.35rem;
-  color: var(--text);
 }
 
 /* Footer links */
