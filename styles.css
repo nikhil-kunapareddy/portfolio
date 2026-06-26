@@ -3,7 +3,7 @@
   --text-muted: #fff;
   --bg: #0a0a0a;
   --link: #5b8cff;
-  --font: "Times New Roman", Times, serif;
+  --font: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 *,
@@ -19,8 +19,8 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font);
-  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
   color: var(--text);
@@ -56,6 +56,10 @@ a {
 
 .name {
   margin: 0;
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
 }
 
 .name a:hover {
@@ -69,10 +73,13 @@ a {
 }
 
 .nav a {
-  color: var(--text-muted);
+  color: #9ca3af;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   color: var(--text);
 }
 
@@ -88,6 +95,14 @@ a {
   margin: 0;
 }
 
+.tagline a {
+  text-decoration: underline;
+}
+
+.tagline a:hover {
+  color: var(--text);
+}
+
 /* Sections */
 .section {
   padding-top: 1rem;
@@ -96,6 +111,30 @@ a {
 
 .section h2 {
   margin: 0 0 0.5rem;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/* Blog post */
+.blog-post h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.blog-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 1.5rem;
+}
+
+.blog-post p {
+  margin: 0 0 1rem;
 }
 
 /* Work entries */
@@ -108,7 +147,6 @@ a {
 }
 
 .work-entry .company-link {
-  color: var(--link);
   text-decoration: underline;
 }
 
@@ -116,8 +154,16 @@ a {
   color: var(--text);
 }
 
-.work-entry .work-meta {
-  color: var(--text);
+.work-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.work-dates {
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 /* Education */
@@ -139,7 +185,6 @@ a {
 }
 
 .edu-school .company-link {
-  color: var(--link);
   text-decoration: underline;
 }
 
